@@ -83,7 +83,8 @@ span{
 
 p{
     font-family: var(--Lexend);
-    color: var(--text-light);
+    color: rgb(190, 190, 190);
+    font-size: large;
 }
 
 /* ------x------- Global Classes -------x-------*/
@@ -207,7 +208,7 @@ main .site-title .btn:hover{
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background: url('../assets/Abract01.png');
+    /* background: url('../assets/Abract01.png'); */
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
@@ -491,11 +492,11 @@ footer.footer .rights h4 a{
 footer.footer .move-up{
     position: absolute;
     right: 6%;
-    top: 50%;
+    top: 20%;
 }
 
 footer.footer .move-up span{
-    color: var(--midnight);
+    color: ghostwhite;
 }
 
 footer.footer .move-up span:hover{
